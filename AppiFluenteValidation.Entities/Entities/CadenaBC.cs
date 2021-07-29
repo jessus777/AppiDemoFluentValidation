@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace AppiFluenteValidation.Entities.Entities
 {
-    public class INTL
+    public class CadenaBC
     {
         public int ID { get; set; }
+        public string RFC { get; set; }
+        public string CadenaBuro { get; set; }
     }
 }
