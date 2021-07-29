@@ -8,5 +8,6 @@ namespace AppiFluenteValidation.Entities.Entities
 {
     public class INTL
     {
+        public int ID { get; set; }
     }
 }
